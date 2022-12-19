@@ -13,7 +13,7 @@ namespace Moldovan_Andrei_Lab11.Data
     {
         HttpClient client;
 
-        string RestUrl = "https://192.169.0.8:45455/api/shoplists/{0}";
+        string RestUrl = "https://192.168.0.88:45455";
         public List<ShopList> Items { get; private set; }
         public RestService()
         {
